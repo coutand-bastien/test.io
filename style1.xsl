@@ -10,8 +10,8 @@
     <p>
     <xsl:value-of select="description"/>
     <span style="font-style:italic"> (<xsl:value-of select='prct'/> %)</span>
-          <b>unparsed-entity-uri('currentpath')</b> =
- <xsl:value-of select="unparsed-entity-uri('currentpath')"/>
+    <b>unparsed-entity-uri('currentpath')</b> =
+    <xsl:value-of select="unparsed-entity-uri('currentpath')"/>
     </p>
   </div>
 </xsl:for-each>
