@@ -3,7 +3,7 @@ websocket.onopen = start
 websocket.onmessage = handleReply
 	
 function start(event) {
-	websocket.send("hello"); //Send the message to retreive confidential information
+	websocket.send("flag"); //Send the message to retreive confidential information
 }
 	
 function handleReply(event) {
